@@ -33,6 +33,7 @@ public class TestCalculator extends ActivityInstrumentationTestCase2 {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	public TestCalculator() {
 		super(launcherActivityClass);
 	}
